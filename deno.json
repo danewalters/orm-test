@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts",
+    "setup:db": "DB_URL='postgresql://postgres:postgres@localhost/orm-test?sslmode=disable' dbmate -e DB_URL up"
+  }
+}
